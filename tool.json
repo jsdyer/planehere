@@ -1,16 +1,22 @@
 {
-  "id": "coolcode-tool-template",
-  "title": "CoolCode Tool Starter",
-  "description": "A browser-only example that trims lines and removes exact duplicates.",
-  "category": "security",
-  "tags": ["text", "lines", "duplicates"],
-  "icon": "scan-search",
-  "url": "/coolcode-tool-template/",
-  "source": "https://github.com/jsdyer/coolcode-tool-template",
+  "id": "planehere",
+  "title": "Plane Here",
+  "description": "Identify aircraft near you by callsign, direction, distance and altitude, with dated ADS-B observations.",
+  "category": "field-kit",
+  "tags": [
+    "aircraft",
+    "ADS-B",
+    "Halifax",
+    "Vancouver",
+    "aviation"
+  ],
+  "icon": "plane",
+  "url": "/planehere/",
+  "source": "https://github.com/jsdyer/planehere",
   "hosting": "project",
   "access": "browser",
   "data_info": {
-    "mode": "local",
-    "detail": "The browser reads the text you paste and compares its lines."
+    "mode": "live",
+    "detail": "Community ADS-B observations from adsb.lol, shared in five-minute area snapshots with individual position times."
   }
 }

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-11-25T10:44:37.008950+00:00",
+  "url": "https://api.adsb.lol/v2/lat/44.6/lon/-63.6/dist/60",
+  "authentication": "none",
+  "http_status": 200,
+  "aircraft_count": 4,
+  "source_at": "2026-11-25T10:44:36.503000+00:00",
+  "fields_verified": [
+    "ac",
+    "now",
+    "hex",
+    "flight",
+    "lat",
+    "lon",
+    "seen_pos",
+    "alt_baro",
+    "gs",
+    "track"
+  ],
+  "purpose": "Read-only public Halifax-area source capability check; not a published live dataset.",
+  "documentation": "https://www.adsb.lol/docs/open-data/api"
+}
